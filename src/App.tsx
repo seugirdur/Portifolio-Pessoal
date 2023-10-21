@@ -1,4 +1,3 @@
-import { Footer } from "./components/Footer"
 import { Contato } from "./pages/Contato"
 import { Home } from "./pages/Home"
 import { Processos } from "./pages/Processos"
@@ -8,13 +7,12 @@ import { Servicos } from "./pages/Servicos"
 export const App = () => {
   return (
     <>
-    <div className="h-full ">
+    <div className="h-full overflow-hidden">
     <Home/>
-    <Projetos/>
-    <Servicos/>
-    <Processos/>
-    <Contato/>
-    <Footer/>
+    {/* <Projetos/> */}
+    {/* <Servicos/> */}
+    {/* <Processos/> */}
+    {/* <Contato/> */}
     </div>
     </>
 )

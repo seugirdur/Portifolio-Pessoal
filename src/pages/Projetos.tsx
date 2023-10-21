@@ -1,11 +1,13 @@
 import { ArrowElbowRightUp } from "phosphor-react";
 import { ProjectCard } from "../components/ProjectCard";
+import { Element } from "react-scroll";
 
 export const Projetos = () => {
   const count = [1, 2, 3];
 
   return (
     <>
+    <Element name="projetos">
       <div className="relative h-screen font-Poppins z-10 text-white">
         <div className="flex flex-col">
           <h1 className="text-6xl text-center font-bold p-20">
@@ -24,7 +26,8 @@ export const Projetos = () => {
           </p>
         </div>
       </div>
-      <div className="w-[40vw] h-[80vw] flex flex-col rounded-l-full bg-gradient-to-b from-baby-blue to-blue-portfolio absolute opacity-5 shadow-black shadow-xl top-[100vh] right-[0]"></div>{" "}
+      </Element>
+      <div className="w-[40vw] h-[80vw] bubble flex flex-col rounded-l-full bg-gradient-to-b from-baby-blue to-blue-portfolio absolute opacity-5 shadow-black shadow-xl top-[100vh] right-[0]"></div>{" "}
     </>
   );
 };

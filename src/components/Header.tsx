@@ -1,31 +1,77 @@
 import { HomeButton } from "./HomeButton";
 
+import { Link as ScrollLink } from "react-scroll";
+
 export const Header = () => {
   return (
-    <div className="flex flex-row text-white w-full text-3xl p-12 absolute">
+    <div className="flex flex-row text-white w-full text-3xl p-12 absolute z-10 ">
+      <div className="px-20">
       <HomeButton />
+      </div>
       <table className="uppercase justify-around w-full">
         <tr>
           <td>
-            <a>Home</a>
+            <ScrollLink
+              to="home"
+              className="cursor-pointer"
+              smooth={true}
+              duration={500}
+            >
+              Home
+            </ScrollLink>
           </td>
           <td>
-            <a>Serviços</a>
+            <ScrollLink
+              to="servicos"
+              className="cursor-pointer"
+              smooth={true}
+              duration={500}
+            >
+              Serviços
+            </ScrollLink>
           </td>
           <td>
-            <a>Projetos</a>
+            <ScrollLink
+              to="projetos"
+              className="cursor-pointer"
+              smooth={true}
+              duration={500}
+            >
+              Projetos
+            </ScrollLink>{" "}
           </td>
           <td>
-            <a>Experiências</a>
+            <ScrollLink
+              to="experiencias"
+              className="cursor-pointer"
+              smooth={true}
+              duration={500}
+            >
+              Experiências
+            </ScrollLink>
           </td>
           <td>
-            <a>Sobre Mim</a>
+            <ScrollLink
+              to="sobremim"
+              className="cursor-pointer"
+              smooth={true}
+              duration={500}
+            >
+              Sobre Mim
+            </ScrollLink>
           </td>
           <td>
-            <a>Contatos</a>
+            <ScrollLink
+              to="contato"
+              className="cursor-pointer"
+              smooth={true}
+              duration={500}
+            >
+              Contato
+            </ScrollLink>
           </td>
         </tr>
       </table>
-      </div>
+    </div>
   );
 };
