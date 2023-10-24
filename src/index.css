@@ -6,6 +6,10 @@
   animation: moveBubble 10s infinite alternate linear; /* Adjust the duration as needed */
 }
 
+.scaleAni {
+  animation: scaleAnimation 3s infinite alternate linear;
+}
+
 /* Keyframes for the animation */
 /* Keyframes for the animation */
 @keyframes moveBubble {
@@ -23,5 +27,17 @@
   }
   100% {
     transform: translate(0, -1vw);
+  }
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }

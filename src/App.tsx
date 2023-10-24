@@ -34,12 +34,12 @@ export const App = () => {
         <section id="servicos">
           <Servicos />
         </section>
-        <section id="processos">
+        {/* <section id="processos">
           <Processos />
         </section>
         <section id="contato">
           <Contato />
-        </section>
+        </section> */}
       </div>
     </>
   );

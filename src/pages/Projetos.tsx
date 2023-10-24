@@ -1,4 +1,4 @@
-import { ArrowElbowRightUp } from "phosphor-react";
+import { ArrowElbowRightUp, CaretLeft, CaretRight } from "phosphor-react";
 import { ProjectCard } from "../components/ProjectCard";
 import { Element } from "react-scroll";
 import { HomeButton } from "../components/HomeButton";
@@ -17,7 +17,7 @@ export const Projetos = () => {
             <div className="w-[40vw] bubble h-[40vw] flex flex-col  bg-gradient-to-r from-transparent to-lightblue-portfolio rounded-full opacity-20 ml-auto -mr-12 shadow-black shadow-xl"></div>
           </div>
           <div className="w-[40vw] bubble h-[40vw] flex flex-col bg-gradient-to-t from-transparent to-lightblue-portfolio rounded-full opacity-20 mr-auto -ml-12 mb-12 -mt-12 shadow-black "></div>
-          <div className="w-[80vw] bubble h-[80vw] flex flex-col bg-gradient-to-l from-transparent to-lightblue-portfolio rounded-full  opacity-20 -ml-12 mb-48 mt-auto shadow-black shadow-xl"></div>
+          <div className="w-[90vw] bubble h-[90vw] flex flex-col bg-gradient-to-tl from-transparent to-lightblue-portfolio rounded-full  opacity-20 -ml-12 mb-32 mt-auto"></div>
         </div>
         <div className="relative h-screen font-Poppins z-10 text-white ">
           <div className="flex flex-col">
@@ -27,16 +27,19 @@ export const Projetos = () => {
               <span className="text-lightblue-portfolio">.</span>
             </h1>
             <div className="lg:flex hidden flex-row justify-evenly p-4">
+              
               {count.map((count) => {
                 return <ProjectCard key={count} />;
               })}
             </div>
-            <div className="lg:hidden flex flex-col items-center justify-center">
+            <div className="lg:hidden flex flex-row items-center justify-center">
+              <CaretLeft color="#0075ff" weight="bold" height={48} width={48} className="mb-16"/>
               <ProjectCard key={selectCount} />
+              <CaretRight color="#0075ff" weight="bold" height={48} width={48} className="mb-16"/>
             </div>
-            <p className="flex flex-row items-center justify-center w-full text-3xl text-center p-20 bottom-0 absolute">
+            <p className="flex flex-row items-center justify-center w-full lg:text-3xl text-center px-12 py-20 bottom-0 absolute">
               Explore toda a diversidade de projetos já desenvolvidos.
-              <ArrowElbowRightUp className="ml-2" />
+              <ArrowElbowRightUp className="ml-2 w-16 h-16" />
             </p>
           </div>
         </div>
