@@ -131,15 +131,8 @@ export const Processos = () => {
           </div>
         </div>
         <div className="h-full justify-center flex flex-col px-20">
-          {//correctplace
-          }
           <div className="w-[40vw] bubble h-[40vw] flex flex-col bg-baby-blue rounded-full  absolute -top-1/4 mr-auto right-20 opacity-20 shadow-black shadow-xl"></div>
-          {//wrongplace
-          }
           <div className="w-[40vw] h-[40vw] flex flex-col bg-baby-blue rounded-full absolute opacity-20 top-1/4 bubble right-20 mr-auto transform  shadow-black shadow-xl"></div>
-
-          {//correctplace
-          }
           <div className="w-[40vw] bubble h-[40vw] flex flex-col bg-baby-blue rounded-full  absolute -bottom-1/4 mr-auto right-20 opacity-20 shadow-black shadow-xl"></div>
         </div>
       </div>
