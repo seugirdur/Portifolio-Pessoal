@@ -12,7 +12,7 @@ export const Projetos = () => {
   return (
     <>
       <Element name="projetos" className="">
-        <div className="absolute z-0 mt-20 flex-col h-screen w-screen flex overflow-hidden">
+        <div className="absolute z-0 mt-20 flex-col h-screen w-screen lg:hidden flex overflow-hidden">
           <div className=" justify-center flex-col lg:hidden flex lg:right-0  w-screen ">
             <div className="w-[40vw] bubble h-[40vw] flex flex-col  bg-gradient-to-r from-transparent to-lightblue-portfolio rounded-full opacity-20 ml-auto -mr-12 shadow-black shadow-xl"></div>
           </div>
@@ -27,15 +27,26 @@ export const Projetos = () => {
               <span className="text-lightblue-portfolio">.</span>
             </h1>
             <div className="lg:flex hidden flex-row justify-evenly p-4">
-              
               {count.map((count) => {
                 return <ProjectCard key={count} />;
               })}
             </div>
             <div className="lg:hidden flex flex-row items-center justify-center">
-              <CaretLeft color="#0075ff" weight="bold" height={48} width={48} className="mb-16"/>
+              <CaretLeft
+                color="#0075ff"
+                weight="bold"
+                height={48}
+                width={48}
+                className="mb-16"
+              />
               <ProjectCard key={selectCount} />
-              <CaretRight color="#0075ff" weight="bold" height={48} width={48} className="mb-16"/>
+              <CaretRight
+                color="#0075ff"
+                weight="bold"
+                height={48}
+                width={48}
+                className="mb-16"
+              />
             </div>
             <p className="flex flex-row items-center justify-center w-full lg:text-3xl text-center px-12 py-20 bottom-0 absolute">
               Explore toda a diversidade de projetos já desenvolvidos.

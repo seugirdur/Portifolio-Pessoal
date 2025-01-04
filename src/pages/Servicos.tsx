@@ -9,6 +9,13 @@ export const Servicos = () => {
         id="servico"
         className="relative h-screen font-Poppins z-10 text-white "
       >
+        <div className="absolute z-0 mt-20 flex-col h-screen w-screen lg:hidden flex overflow-hidden">
+          <div className=" justify-center flex-col lg:hidden flex lg:right-0  w-screen ">
+            <div className="w-[40vw] bubble h-[40vw] flex flex-col  bg-gradient-to-r from-transparent to-lightblue-portfolio rounded-full opacity-20 mr-auto -ml-12 shadow-black shadow-xl mt-24"></div>
+          </div>
+          <div className="w-[40vw] bubble h-[40vw] flex flex-col bg-gradient-to-t from-transparent to-lightblue-portfolio rounded-full opacity-20 ml-auto -mr-12 mb-12 -mt-12 shadow-black "></div>
+          <div className="w-[90vw] bubble h-[90vw] flex flex-col bg-gradient-to-tl from-transparent to-lightblue-portfolio rounded-full  opacity-20 -ml-12 mb-32 mt-auto"></div>
+        </div>
         <div className="w-full flex flex-col items-center text-center justify-center lg:p-16 p-8 py-12 pb-6 lg:text-6xl text-3xl">
           <h1 className="font-bold">
             Conheça um pouco do meu trabalho
@@ -92,7 +99,7 @@ export const Servicos = () => {
             </p>
           </div>
         </div>
-        <div className="w-[35vw] h-[35vw] bubble flex flex-col rounded-full bg-gradient-to-b from-baby-blue to-blue-portfolio relative opacity-5 shadow-black shadow-xl top-0 mt-[-120vh] ml-[20vw] left-[0]"></div>
+        <div className="w-[35vw] h-[35vw] bubble lg:flex hidden flex-col rounded-full bg-gradient-to-b from-baby-blue to-blue-portfolio relative opacity-5 shadow-black shadow-xl top-0 mt-[-120vh] ml-[20vw] left-[0]"></div>
       </div>
     </>
   );

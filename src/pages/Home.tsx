@@ -6,7 +6,6 @@ export const Home = () => {
   return (
     <div className="w-full h-full flex flex-col bg-gradient-to-r from-black-portfolio to-blue-portfolio">
       <div className="w-screen h-screen flex flex-col bg-gradient-to-r from-black-portfolio to-blue-portfolio fixed"></div>
-
       <div
         id="home"
         className="fixed lg:h-screen h-full w-1/3 bg-black-portfolio flex flex-col top-0 z-0"
@@ -24,7 +23,7 @@ export const Home = () => {
             <h2 className="text-lightblue-portfolio uppercase text-3xl lg:px-24 px-4 tracking-widest">
               Olá, sou o Gabriel
             </h2>
-            <h1 className="font-bold text-white lg:text-6xl text-5xl px-4 lg:px-24 lg:pb-4 pb-40 leading-tight">
+            <h1 className="font-bold text-white lg:text-6xl text-4xl px-4 lg:px-24 lg:pb-4 pb-40 leading-tight">
               Transformando ideias em projetos
               <span className="text-lightblue-portfolio">:</span>
               <br />

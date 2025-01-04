@@ -1,16 +1,14 @@
 import { useEffect, useState } from "react";
-import { Contato } from "./pages/Contato";
 import { Home } from "./pages/Home";
-import { Processos } from "./pages/Processos";
 import { Projetos } from "./pages/Projetos";
 import { Servicos } from "./pages/Servicos";
 import { Events, scrollSpy } from "react-scroll";
+import { Processos } from "./pages/Processos";
 
 export const App = () => {
   const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
-    // Listen for scroll events and update the active section
     Events.scrollEvent.register("begin", (to, element) => {
       setActiveSection(element);
     });
@@ -34,10 +32,10 @@ export const App = () => {
         <section id="servicos">
           <Servicos />
         </section>
-        {/* <section id="processos">
+        <section id="processos">
           <Processos />
         </section>
-        <section id="contato">
+        {/* <section id="contato">
           <Contato />
         </section> */}
       </div>
