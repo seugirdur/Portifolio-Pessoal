@@ -34,6 +34,7 @@ export default {
         "blue-portfolio": "#002e64",
         "lightblue-portfolio": "#0075ff",
         "baby-blue": "#7cb8ff",
+        "light-gray": "#b2b2b2"
       },
       fontFamily: {
         Poppins: "Poppins, sans-serif",

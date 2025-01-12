@@ -6,6 +6,14 @@
   animation: moveBubble 10s infinite alternate linear; /* Adjust the duration as needed */
 }
 
+.pong {
+  animation: movePong 10s infinite alternate linear; /* Adjust the duration as needed */
+}
+
+.body {
+  overflow-x: hidden;
+}
+
 .scaleAni {
   animation: scaleAnimation 3s infinite alternate linear;
 }
@@ -29,6 +37,25 @@
     transform: translate(0, -1vw);
   }
 }
+
+@keyframes movePong {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 1vw); /* Para baixo */
+  }
+  50% {
+    transform: translate(-1vw, 0); /* Para a esquerda */
+  }
+  75% {
+    transform: translate(0, -1vw); /* Para cima */
+  }
+  100% {
+    transform: translate(0, 0); /* Retorna ao ponto inicial */
+  }
+}
+
 
 @keyframes scaleAnimation {
   0% {

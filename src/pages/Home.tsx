@@ -1,6 +1,7 @@
 import { ArrowElbowRightDown } from "phosphor-react";
 import { Header } from "../components/Header";
 import { HomeButton } from "../components/HomeButton";
+import { Link as ScrollLink } from "react-scroll";
 
 export const Home = () => {
   return (
@@ -30,17 +31,26 @@ export const Home = () => {
               Soluções que cativam seus clientes
               <span className="text-lightblue-portfolio">.</span>
             </h1>
-            <div className="flex flex-col absolute justify-center items-center w-full lg:items-start lg:relative lg:mt-0 lg:mb-0 mt-20 mb-20 bottom-0 lg:top-20">
+            <div
+                className="flex flex-col absolute justify-center items-center w-full lg:items-start lg:relative lg:mt-0 lg:mb-0 mt-20 mb-20 bottom-0 lg:top-20">
               {/* <div className="flex flex-col lg:relative absolute lg:mt-0 lg:mb-0 mt-20 mb-20 lg:top-40"> */}
-              <button className="text-lightblue-portfolio rounded-full border-2 w-fit uppercase flex-row flex items-center lg:text-3xl lg:mx-24 px-4 py-2 border-white tracking-widest text-2xl">
+
+              <ScrollLink
+                  className="text-lightblue-portfolio rounded-full border-2 w-fit uppercase flex-row flex items-center cursor-pointer lg:text-3xl lg:mx-24 px-4 py-2 border-white tracking-widest text-2xl" to="projetos"
+
+                  smooth={true}
+                  duration={500}
+              >
                 Conhecer Portfólio
-                <ArrowElbowRightDown className="ml-2 text-white" />
-              </button>
+                <ArrowElbowRightDown className="ml-2 text-white"/>
+              </ScrollLink>
+
             </div>
           </div>
 
           <div className="h-full lg:static absolute lg:left-0 left-1/2 justify-center flex flex-col">
-            <div className="lg:w-[40vw] lg:h-[40vw] w-[110vw] h-[110vw] flex flex-col bg-gradient-to-b from-transparent to-baby-blue rounded-full absolute -top-20 lg:-top-1/4 opacity-10 shadow-black shadow-xl bubble"></div>
+            <div
+                className="lg:w-[40vw] lg:h-[40vw] w-[110vw] h-[110vw] flex flex-col bg-gradient-to-b from-transparent to-baby-blue rounded-full absolute -top-20 lg:-top-1/4 opacity-10 shadow-black shadow-xl bubble"></div>
             <div className="lg:w-[40vw] lg:h-[40vw] w-[110vw] h-[110vw] flex flex-col bg-gradient-to-t from-transparent to-baby-blue rounded-full opacity-10 shadow-black shadow-xl self-center bubble"></div>
             <div className="lg:w-[40vw] lg:h-[40vw] w-[110vw] h-[110vw] flex flex-col bg-gradient-to-t from-transparent to-baby-blue rounded-full  absolute bottom-0 lg:-bottom-1/4 opacity-10 shadow-black shadow-xl bubble"></div>
           </div>

@@ -1,4 +1,3 @@
-import { Planet } from "phosphor-react";
 import IdeaIcon from "../assets/idea.png";
 import Medicine from "../assets/alternative-medicine.png";
 
@@ -33,47 +32,47 @@ export const Servicos = () => {
           </div>
           <div className="flex flex-col p-2 items-center">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+              src="https://nodejs.org/static/logos/jsIconGreen.svg"
               alt=""
               className="p-2 lg:w-36 lg:h-36 w-24 h-24"
             />
-            <p className="lg:text-2xl text-lg p-2 uppercase">Java</p>
+            <p className="lg:text-2xl text-lg p-2 uppercase">Node.js</p>
           </div>
           <div className="flex flex-col p-2 items-center">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+              src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"
               alt=""
-              className="p-2 lg:w-36 lg:h-36 w-24 h-24"
+              className="p-4 lg:w-36 lg:h-36 w-24 h-24"
             />
-            <p className="lg:text-2xl text-lg p-2 uppercase">Java</p>
+            <p className="lg:text-2xl text-lg p-2 uppercase">Python</p>
           </div>
           <div className="flex flex-col p-2 items-center">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
               alt=""
-              className="p-2 lg:w-36 lg:h-36 w-24 h-24"
+              className="p-4 py-5 lg:w-36 lg:h-36 w-24 h-24"
             />
-            <p className="lg:text-2xl text-lg p-2 uppercase">Java</p>
+            <p className="lg:text-2xl text-lg p-2 uppercase">React</p>
           </div>
           <div className="flex flex-col p-2 items-center">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1024px-Vue.js_Logo_2.svg.png"
               alt=""
-              className="p-2 lg:w-36 lg:h-36 w-24 h-24"
+              className="p-4 lg:w-36 lg:h-36 w-24 h-24"
             />
-            <p className="lg:text-2xl text-lg p-2 uppercase">Java</p>
+            <p className="lg:text-2xl text-lg p-2 uppercase">Vue.js</p>
           </div>
           <div className="flex flex-col p-2 items-center">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+              src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
               alt=""
               className="p-2 lg:w-36 lg:h-36 w-24 h-24"
             />
-            <p className="lg:text-2xl text-lg p-2 uppercase">Java</p>
+            <p className="lg:text-2xl text-lg p-2 uppercase">React<br/>Native</p>
           </div>
         </div>
         <div className="flex lg:flex-row flex-col justify-evenly lg:px-20 tracking-widest">
-          <div className="flex flex-col items-center lg:w-1/2 justify-start text-center lg:p-20 lg:px-20 px-6">
+          <div className="flex flex-col items-center lg:w-1/2 justify-start text-center lg:p-4 lg:px-20 px-6">
             <img src={Medicine} className="mb-4 lg:flex hidden h-32" />
             <img src={Medicine} className="lg:mb-4 lg:hidden flex h-16" />
             <h2 className="lg:text-4xl text-xl text-lightblue-portfolio font-bold uppercase m-2 text-center">
@@ -84,7 +83,7 @@ export const Servicos = () => {
               propósito de automatizar a gestão empresarial.
             </p>
           </div>
-          <div className="flex flex-col items-center lg:w-1/2 justify-start text-center lg:p-20 lg:px-20 px-6">
+          <div className="flex flex-col items-center lg:w-1/2 justify-start text-center lg:p-4 lg:px-20 px-6">
             <img src={IdeaIcon} className="mb-4 lg:flex hidden h-32" />
             <img
               src={IdeaIcon}

@@ -12,60 +12,62 @@ export const Header = () => {
         <tr>
           <td>
             <ScrollLink
-              to="home"
-              className="cursor-pointer"
-              smooth={true}
-              duration={500}
+                to="home"
+                className="cursor-pointer"
+                smooth={true}
+                duration={500}
             >
               Home
             </ScrollLink>
           </td>
+
           <td>
             <ScrollLink
-              to="servicos"
-              className="cursor-pointer"
-              smooth={true}
-              duration={500}
-            >
-              Serviços
-            </ScrollLink>
-          </td>
-          <td>
-            <ScrollLink
-              to="projetos"
-              className="cursor-pointer"
-              smooth={true}
-              duration={500}
+                to="projetos"
+                className="cursor-pointer"
+                smooth={true}
+                duration={500}
             >
               Projetos
             </ScrollLink>{" "}
           </td>
           <td>
             <ScrollLink
-              to="experiencias"
-              className="cursor-pointer"
-              smooth={true}
-              duration={500}
+                to="servicos"
+                className="cursor-pointer"
+                smooth={true}
+                duration={500}
             >
-              Experiências
+              Serviços
             </ScrollLink>
           </td>
+
           <td>
             <ScrollLink
-              to="sobremim"
-              className="cursor-pointer"
-              smooth={true}
-              duration={500}
+                to="desenvolvedor"
+                className="cursor-pointer"
+                smooth={true}
+                duration={500}
             >
               Sobre Mim
             </ScrollLink>
           </td>
           <td>
             <ScrollLink
-              to="contato"
-              className="cursor-pointer"
-              smooth={true}
-              duration={500}
+                to="experiencias"
+                className="cursor-pointer"
+                smooth={true}
+                duration={500}
+            >
+              Experiências
+            </ScrollLink>
+          </td>
+          <td>
+            <ScrollLink
+                to="contato"
+                className="cursor-pointer"
+                smooth={true}
+                duration={500}
             >
               Contato
             </ScrollLink>

@@ -1,21 +1,56 @@
+import {useEffect, useState} from "react";
+
 interface ProjectCardProps {
   key: number;
 }
-
-export const ProjectCard = ({ key }: ProjectCardProps) => {
-  let url: string =
-    "https://media.istockphoto.com/id/1402577565/photo/colour-swatches-book.webp?b=1&s=170667a&w=0&k=20&c=5oYyljXxGN1aolUSuyLLAii11_bcDb-tiVq0iGV7N5I=";
+export const ProjectCard = ({ projectKey }: { projectKey: number }) => {
+    const [title, setTitle] = useState("")
+    const [description, setDescription] = useState("")
+    const [image, setImage] = useState("")
+    const [technologies, setTechnologies] = useState([])
+    const [link, setLink] = useState("")
+    useEffect(() => {
+        switch (projectKey) {
+            case 1:
+                setTitle("ASET");
+                setDescription("ASET foi uma aplicação Android desenvolvida para a Petrobras para centralizar os pedidos de ajuda de suporte técnico.");
+                setImage("https://github.com/seugirdur/ASET/blob/main/img/slide/quatro.png?raw=true")
+                setLink("https://github.com/seugirdur/App-Petrobras")
+                break;
+            case 2:
+                setTitle("Powdermix");
+                setDescription("E-commerce de maquinário para farmácias.");
+                setLink("https://github.com/seugirdur/App-Powdermix")
+                setImage("https://powdermix.com.br/wp-content/uploads/2024/07/Logo_Novo_PowderMix_Colorido_v2-300x73.png")
+                break;
+            case 3:
+                setTitle("FX BANK");
+                setDescription("Página de Checkout Customizado com Dashboard para análise de vendas, integração com Shopify, PagSeguro, Safe2Pay e outros.");
+                setLink("https://github.com/seugirdur/fx-bank")
+                setImage("https://fxbank.com.br/wp-content/uploads/2024/08/fx-1.png")
+                break;
+            default:
+                break;
+        }
+    }, [projectKey]);
 
   return (
-    <div className="m-2 lg:pb-8 pb-2 lg:w-96 w-[70%] justify-center items-center flex flex-col lg:ring-4 rounded-3xl lg:ring-lightblue-portfolio bg-lightblue-portfolio bg-opacity-20 tracking-widest lg:shadow-none shadow-2xl">
-      <div className="flex flex-col bg-blue-portfolio lg:w-96 w-full  py-1 rounded-3xl">
-        <img src={url} alt="project logo" className=" rounded-3xl" />
-      </div>
-      <h1 className="flex flex-col items-start justify-start text-start mr-auto lg:text-4xl text-3xl text-lightblue-portfolio font-bold p-2">
-        ASET
+    <div className="m-2 lg:pb-2 pb-2 lg:w-72 w-[70%] lg:justify-start justify-center items-center flex flex-col lg:ring-4 rounded-3xl lg:ring-lightblue-portfolio bg-lightblue-portfolio bg-opacity-20 tracking-widest lg:shadow-none shadow-2xl"
+    onClick={() => window.open(link, "_blank")}>
+
+      <div className="flex flex-col bg-blue-portfolio lg:w-72 w-full py-1 rounded-3xl">
+          <img
+              src={image}
+              alt="project logo"
+              className={`h-[235px] w-auto rounded-3xl ${
+                  projectKey === 2 ? "object-contain" : "object-cover"
+              }`}
+          /></div>
+        <h1 className="flex flex-col items-start justify-start text-start mr-auto lg:text-xl text-3xl text-lightblue-portfolio font-bold p-2">
+          {title}
       </h1>
-      <p className="lg:text-3xl text-2xl p-2 tracking-widest">
-        Detalhes do projeto, detalhes do projeto
+      <p className="lg:text-base text-lg p-2 tracking-widest">
+          {description}
       </p>
 
       <div className="flex flex-row justify-center">

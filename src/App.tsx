@@ -4,7 +4,9 @@ import { Projetos } from "./pages/Projetos";
 import { Servicos } from "./pages/Servicos";
 import { Events, scrollSpy } from "react-scroll";
 import { Processos } from "./pages/Processos";
-
+import { Experiencias } from "./pages/Experiencias";
+import {Desenvolvedor} from "./pages/Desenvolvedor.tsx";
+import { Contato } from "./pages/Contato";
 export const App = () => {
   const [activeSection, setActiveSection] = useState("home");
 
@@ -35,9 +37,16 @@ export const App = () => {
         <section id="processos">
           <Processos />
         </section>
-        {/* <section id="contato">
+        <section id="desenvolvedor">
+          <Desenvolvedor/>
+        </section>
+        <section id="experiencias">
+            <Experiencias />
+        </section>
+
+         <section id="contato">
           <Contato />
-        </section> */}
+        </section>
       </div>
     </>
   );

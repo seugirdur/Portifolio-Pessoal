@@ -15,23 +15,23 @@ export const Contato = () => {
           id="contato"
           className="relative h-screen font-Poppins z-10 text-white"
         >
-          <h1 className="text-center w-full flex px-12 py-16 font-bold text-7xl flex-row items-center justify-center">
+          <h1 className="text-center w-full flex px-12 py-16 font-bold lg:text-7xl text-3xl flex-row items-center justify-center">
             <p>Vamos conversar</p>
             <span className="text-lightblue-portfolio">!</span>
           </h1>
-          <div className="flex flex-row w-full text-4xl items-start justify-center tracking-widest py-24">
-            <div className="w-1/2 flex flex-col">
-              <h3 className="uppercase font-bold px-24">
+          <div className="flex lg:flex-row flex-col w-full lg:text-4xl text-xl items-start justify-center tracking-widest lg:py-24 py-8">
+            <div className="lg:w-1/2 flex flex-col">
+              <h3 className="uppercase font-bold lg:px-24 px-4">
                 Transformando <br /> ideias em projetos
                 <span className="text-lightblue-portfolio">:</span>
               </h3>
-              <p className="px-24 pr-64">
+              <p className="lg:px-24 lg:pr-64 px-4 pr-12">
                 Se quiser fazer um orçamento ou tiver dúvidas, entre em contato
                 comigo<span className="text-lightblue-portfolio">.</span>
               </p>
-              <div className="px-24 pt-24">
+              <div className="lg:px-24 px-12 lg:pt-24 pt-8">
                 <a href="https://t.me/SeuGirdur" target="_blank">
-                <button className="text-3xl uppercase text-lightblue-portfolio font-bold px-4 py-2 ring-1 items-center flex-row ring-white rounded-s-full rounded-e-full w-fit flex tracking-widest">
+                <button className="lg:text-3xl text-xl uppercase text-lightblue-portfolio font-bold px-8 py-2 ring-1 items-center flex-row ring-white rounded-s-full rounded-e-full w-fit flex tracking-widest">
                   Enviar Mensagem
                   <TelegramLogo
                     className="text-white ml-2"
@@ -42,7 +42,7 @@ export const Contato = () => {
                 </a>
               </div>
             </div>
-            <div className="w-1/2 flex flex-col">
+            <div className="w-1/2 lg:mt-0 lg:px-0 px-4 mt-8 flex flex-col">
               <h3 className="uppercase font-bold pb-2">Contatos</h3>
               <div className="py-4">
                 <p>email</p>
