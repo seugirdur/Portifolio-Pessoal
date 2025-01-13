@@ -1,28 +1,21 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import Backend from "i18next-http-backend";
 
+// Configuração do i18n
 i18n
+    .use(Backend) // Para carregar traduções de arquivos JSON
     .use(LanguageDetector) // Detecta o idioma do navegador
-    .use(initReactI18next) // Inicializa o react-i18next
+    .use(initReactI18next) // Integração com React
     .init({
-        resources: {
-            en: {
-                translation: {
-                    title: "Hi, I'm John Doe!",
-                    description: "I'm a passionate developer and this is my personal portfolio.",
-                },
-            },
-            pt: {
-                translation: {
-                    title: "Olá, sou John Doe!",
-                    description: "Sou um desenvolvedor apaixonado e este é meu portfólio pessoal.",
-                },
-            },
-        },
-        fallbackLng: 'en', // Idioma padrão caso o idioma do usuário não seja suportado
+        fallbackLng: "en", // Idioma padrão
+        debug: true, // Ativa logs para identificar erros
         interpolation: {
-            escapeValue: false, // React já faz a proteção contra XSS
+            escapeValue: false, // React já faz proteção contra XSS
+        },
+        backend: {
+            loadPath: "/locales/{{lng}}/translation.json", // Caminho para os arquivos JSON
         },
     });
 

@@ -1,0 +1,128 @@
+{
+  "greeting": "Hi, I'm Gabriel",
+  "headline": "Turning ideas into projects",
+  "subheadline": "Solutions that captivate your clients",
+  "portfolioButton": "Explore Portfolio",
+  "menu": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "aboutMe": "About Me",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+
+  "contact": {
+    "heading": "Let's talk",
+    "transformIdeas": "Turning ideas into projects",
+    "contactDescription": "If you want a quote or have any questions, get in touch with me",
+    "sendMessage": "Send Message",
+    "contacts": "Contacts",
+    "email": "email",
+    "phone": "phone",
+    "follow": "Follow"
+  },
+
+  "developer": {
+    "title": "The Developer",
+    "bio": "I’m 22 years old, passionate about Java and typed languages, but I believe that \"the best language is the one that solves the problem.\" I started my journey in mobile development, a field I still hold dear. Currently, I work as a full-stack developer, always striving to expand my knowledge and experiment with new technologies.",
+    "details": "I am constantly improving my skills and exploring concepts like microservices, atomic design, and SOLID principles. I enjoy integrating best practices and modern solutions into the projects I develop, ensuring efficiency and scalability while challenging myself to learn and innovate.",
+    "downloadCV": "Download CV"
+
+},
+
+  "experiences": {
+    "title": "Some Experiences",
+    "stefanini": {
+      "company": "Stefanini/Petrobras",
+      "period": "01/2024 - Present",
+      "description": "Developed and maintained backend services using Python and Django. Integrated and utilized LLM APIs to optimize data analysis."
+    },
+    "fxbank": {
+      "company": "FX Bank",
+      "period": "01/2023 - 07/2023",
+      "description": "Developed a business dashboard to optimize client relationships and transaction tracking. Designed proprietary APIs for automated financial transactions and payment splitting."
+    },
+
+  "letsTalk": {
+    "title": "Some Experiences",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Analysis",
+        "description": "Recognize customer needs and identify solution opportunities"
+      },
+      {
+        "number": "2",
+        "title": "Design",
+        "description": "Develop engaging and intuitive interfaces"
+      }
+    ]
+  }
+
+
+},
+
+  "processes": {
+    "title": "Learn the steps of the creation process",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Analysis",
+        "description": "Recognize customer needs and identify solution opportunities"
+      },
+      {
+        "number": "2",
+        "title": "Design",
+        "description": "Develop engaging and intuitive interfaces"
+      },
+      {
+        "number": "3",
+        "title": "Development",
+        "description": "Turn ideas into software"
+      },
+      {
+        "number": "4",
+        "title": "Testing",
+        "description": "Ensure software quality and stability"
+      }
+    ],
+    "icons": {
+      "code": "Code",
+      "design": "Design",
+      "company": "Your Company",
+      "testing": "Testing",
+      "analytics": "Analytics"
+    }
+  },
+  "projects": {
+    "title": "Discover my work and some projects I've created for our partners.",
+    "explore": "Explore the full diversity of projects already developed."
+  },
+
+  "services": {
+    "title": "Learn a bit about my work.",
+    "technologies": {
+      "java": "Java",
+      "node": "Node.js",
+      "python": "Python",
+      "react": "React",
+      "vue": "Vue.js",
+      "reactNative": "React\nNative"
+    },
+    "development": {
+      "title": "Development",
+      "description": "Creating systems exclusively for you, with the purpose of automating business management."
+    },
+    "branding": {
+      "title": "Branding",
+      "description": "Helping you strategically position your brand, driving positive results."
+    }
+  }
+
+
+
+
+
+
+}

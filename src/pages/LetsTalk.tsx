@@ -1,11 +1,15 @@
+import { useTranslation } from "react-i18next";
+
 export const LetsTalk = () => {
+    const { t } = useTranslation(); // Hook para traduções
+
     return (
         <>
             <div className="relative flex flex-col h-screen font-Poppins z-10 text-white">
                 {/* Título no topo */}
                 <div className="flex flex-col">
                     <h1 className="lg:text-6xl text-3xl font-bold text-center lg:px-96 lg:py-20 lg:pt-20 pt-12">
-                        Algumas experiências
+                        {t("letsTalk.title")}
                         <span className="text-lightblue-portfolio">.</span>
                     </h1>
                 </div>
@@ -14,37 +18,23 @@ export const LetsTalk = () => {
                 <div className="flex items-center justify-center flex-grow">
                     <div className="flex lg:flex-row flex-col w-full mt-8">
                         <div className="lg:w-1/2 w-full flex flex-col lg:px-12">
-                            <div className="flex flex-col">
-                                <div className="flex flex-row items-center justify-evenly lg:my-4 my-2 lg:h-28 h-20">
-                                    <div className="flex flex-col w-2/12 items-center justify-center">
-                                        <div className="lg:w-20 lg:h-20 w-12 h-12 bg-gradient-to-b from-blue-portfolio to-black-portfolio rounded-full items-center justify-center flex lg:text-6xl text-4xl font-bold text-lightblue-portfolio">
-                                            1
+                            {t("letsTalk.steps", { returnObjects: true }).map((step, index) => (
+                                <div className="flex flex-col" key={index}>
+                                    <div className="flex flex-row items-center justify-evenly lg:my-4 my-2 lg:h-28 h-20">
+                                        <div className="flex flex-col w-2/12 items-center justify-center">
+                                            <div className="lg:w-20 lg:h-20 w-12 h-12 bg-gradient-to-b from-blue-portfolio to-black-portfolio rounded-full items-center justify-center flex lg:text-6xl text-4xl font-bold text-lightblue-portfolio">
+                                                {step.number}
+                                            </div>
+                                        </div>
+                                        <div className="uppercase text-lightblue-portfolio w-10/12 font-bold tracking-widest lg:text-4xl text-xl">
+                                            {step.title}
+                                            <p className="uppercase lg:text-2xl text-base text-white font-normal lg:pr-32 pr-2">
+                                                {step.description}
+                                            </p>
                                         </div>
                                     </div>
-                                    <div className="uppercase text-lightblue-portfolio w-10/12 font-bold tracking-widest lg:text-4xl text-xl">
-                                        Análise
-                                        <p className="uppercase lg:text-2xl text-base text-white font-normal lg:pr-32 pr-2">
-                                            Reconhecer as necessidades dos clientes e identificar
-                                            oportunidades de soluções
-                                        </p>
-                                    </div>
                                 </div>
-                            </div>
-                            <div className="flex flex-col">
-                                <div className="flex flex-row items-center justify-evenly lg:my-4 my-2 lg:h-28 h-20">
-                                    <div className="flex flex-col w-2/12 items-center justify-center">
-                                        <div className="lg:w-20 lg:h-20 w-12 h-12 bg-gradient-to-b from-blue-portfolio to-black-portfolio rounded-full items-center justify-center flex lg:text-6xl text-4xl font-bold text-lightblue-portfolio">
-                                            2
-                                        </div>
-                                    </div>
-                                    <div className="uppercase text-lightblue-portfolio w-10/12 font-bold tracking-widest lg:text-4xl text-xl">
-                                        Design
-                                        <p className="uppercase lg:text-2xl text-base text-white font-normal lg:pr-32 pr-2">
-                                            Desenvolver interfaces envolventes e intuitivas
-                                        </p>
-                                    </div>
-                                </div>
-                                a    </div>
+                            ))}
                         </div>
                     </div>
                 </div>
