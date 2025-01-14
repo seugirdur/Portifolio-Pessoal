@@ -10,7 +10,7 @@ i18n
         fallbackLng: "en",
         debug: true,
         backend: {
-            loadPath: "/Portifolio-Pessoal/locales/{{lng}}/{{ns}}.json",
+            loadPath: "/Portifolio-Pessoal/locales/{{lng}}/{{ns}}.json", // Inclua o subdiretório aqui
         },
         interpolation: {
             escapeValue: false,
