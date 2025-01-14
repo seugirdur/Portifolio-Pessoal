@@ -103,7 +103,7 @@
   },
 
   "services": {
-    "title": "Conheça um pouco do meu trabalho.",
+    "title": "Conheça um pouco do meu trabalho",
     "technologies": {
       "java": "Java",
       "node": "Node.js",
@@ -120,12 +120,20 @@
       "title": "Branding",
       "description": "Auxiliar você a estrategicamente posicionar sua marca, impulsionando resultados positivos."
     }
-  }
-
-
-
-
-
-
+  },
+    "projects_card": {
+      "1": {
+        "title": "ASET",
+        "description": "ASET foi uma aplicação Android desenvolvida para a Petrobras para centralizar os pedidos de ajuda de suporte técnico."
+      },
+      "2": {
+        "title": "Powdermix",
+        "description": "E-commerce de maquinário para farmácias."
+      },
+      "3": {
+        "title": "FX BANK",
+        "description": "Página de Checkout Customizado com Dashboard para análise de vendas, integração com Shopify, PagSeguro, Safe2Pay e outros."
+      }
+    }
 
 }

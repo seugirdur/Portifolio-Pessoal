@@ -100,8 +100,24 @@
     "explore": "Explore the full diversity of projects already developed."
   },
 
+  "projects_card": {
+    "1": {
+      "title": "ASET",
+      "description": "ASET was an Android application developed for Petrobras to centralize technical support requests."
+    },
+    "2": {
+      "title": "Powdermix",
+      "description": "E-commerce for pharmacy machinery."
+    },
+    "3": {
+      "title": "FX BANK",
+      "description": "Customized Checkout Page with Dashboard for sales analysis, integration with Shopify, PagSeguro, Safe2Pay, and more."
+    }
+  },
+
+
   "services": {
-    "title": "Learn a bit about my work.",
+    "title": "Learn a bit about my work",
     "technologies": {
       "java": "Java",
       "node": "Node.js",
