@@ -1,7 +1,6 @@
 import { ArrowElbowRightUp, CaretLeft, CaretRight } from "phosphor-react";
 import { ProjectCard } from "../components/ProjectCard";
 import { Element } from "react-scroll";
-import { HomeButton } from "../components/HomeButton";
 import { useState } from "react";
 import { useTranslation } from "react-i18next"; // Importa o hook para tradução
 
