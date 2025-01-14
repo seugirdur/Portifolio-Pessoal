@@ -19,7 +19,7 @@ export const ErrorPage = () => {
 
     return (
         <div id="error-page">
-            <h1>Oops! 2</h1>
+            <h1>Oops! 3</h1>
             <p>Sorry, an unexpected error has occurred.</p>
             <p>
                 {isRouteError(error) ? (
