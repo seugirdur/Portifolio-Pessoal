@@ -1,10 +1,22 @@
 import { Bug, Buildings, ChartPieSlice, Code, PaintBrush } from "phosphor-react";
 import { useTranslation } from "react-i18next";
+interface Step {
+  number: string;
+  title: string;
+  description: string;
+}
 
+interface Icons {
+  code: string;
+  design: string;
+  company: string;
+  testing: string;
+  analytics: string;
+}
 export const Processos = () => {
   const { t } = useTranslation(); // Hook para traduções
-  const steps = t("processes.steps", { returnObjects: true }); // Obtém as etapas do JSON
-  const icons = t("processes.icons", { returnObjects: true }); // Obtém os textos dos ícones
+  const steps = t("processes.steps", { returnObjects: true }) as Step[];
+  const icons = t("processes.icons", { returnObjects: true }) as Icons;
 
   return (
       <>

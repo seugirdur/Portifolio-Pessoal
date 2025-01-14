@@ -1,18 +1,17 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Home } from "./pages/Home";
 import { Projetos } from "./pages/Projetos";
 import { Servicos } from "./pages/Servicos";
 import { Events, scrollSpy } from "react-scroll";
 import { Processos } from "./pages/Processos";
 import { Experiencias } from "./pages/Experiencias";
-import {Desenvolvedor} from "./pages/Desenvolvedor.tsx";
+import { Desenvolvedor } from "./pages/Desenvolvedor.tsx";
 import { Contato } from "./pages/Contato";
-export const App = () => {
-  const [activeSection, setActiveSection] = useState("home");
 
+export const App = () => {
   useEffect(() => {
-    Events.scrollEvent.register("begin", (to, element) => {
-      setActiveSection(element);
+    Events.scrollEvent.register("begin", (element) => {
+      console.log(`Scrolling to: ${element}`);
     });
 
     scrollSpy.update();
@@ -23,7 +22,6 @@ export const App = () => {
   }, []);
 
   return (
-    <>
       <div className="h-full overflow-hidden">
         <section id="home">
           <Home />
@@ -38,16 +36,14 @@ export const App = () => {
           <Processos />
         </section>
         <section id="desenvolvedor">
-          <Desenvolvedor/>
+          <Desenvolvedor />
         </section>
         <section id="experiencias">
-            <Experiencias />
+          <Experiencias />
         </section>
-
-         <section id="contato">
+        <section id="contato">
           <Contato />
         </section>
       </div>
-    </>
   );
 };

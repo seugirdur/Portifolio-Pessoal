@@ -1,7 +1,13 @@
 import { useTranslation } from "react-i18next";
+interface Step {
+    number: string;
+    title: string;
+    description: string;
+}
 
 export const LetsTalk = () => {
     const { t } = useTranslation(); // Hook para traduções
+    const steps = t("letsTalk.steps", { returnObjects: true }) as Step[]; // Define o tipo para steps
 
     return (
         <>
@@ -18,7 +24,7 @@ export const LetsTalk = () => {
                 <div className="flex items-center justify-center flex-grow">
                     <div className="flex lg:flex-row flex-col w-full mt-8">
                         <div className="lg:w-1/2 w-full flex flex-col lg:px-12">
-                            {t("letsTalk.steps", { returnObjects: true }).map((step, index) => (
+                            {steps.map((step: Step, index: number) => (
                                 <div className="flex flex-col" key={index}>
                                     <div className="flex flex-row items-center justify-evenly lg:my-4 my-2 lg:h-28 h-20">
                                         <div className="flex flex-col w-2/12 items-center justify-center">
