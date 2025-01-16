@@ -65,7 +65,7 @@ export const Projetos = () => {
                     onClick={() => handleNextCard()}
                 />
               </div>
-              <p className="flex flex-row items-center justify-center w-full lg:text-3xl text-center px-12 py-12 lg:py-8 bottom-0 absolute">
+              <p className="flex flex-row items-center justify-center w-full lg:text-3xl text-center px-12 py-12 lg:py-8">
                 {t("projects.explore")}
                 <ArrowElbowRightUp className="ml-2 w-16 h-16" />
               </p>

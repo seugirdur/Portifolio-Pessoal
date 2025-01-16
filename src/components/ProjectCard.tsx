@@ -58,7 +58,7 @@ export const ProjectCard = ({ projectKey }: ProjectCardProps) => {
 
     return (
         <div
-            className="m-2 lg:pb-2 pb-2 lg:w-72 w-[70%] lg:justify-start justify-center items-center flex flex-col lg:ring-4 rounded-3xl lg:ring-lightblue-portfolio bg-lightblue-portfolio bg-opacity-20 tracking-widest lg:shadow-none shadow-2xl"
+            className="m-2 lg:pb-2 pb-2 lg:w-72 w-[70%] lg:justify-start justify-center items-center flex flex-col lg:ring-4 rounded-3xl lg:ring-lightblue-portfolio bg-lightblue-portfolio bg-opacity-20 tracking-widest lg:shadow-none shadow-2xl cursor-pointer"
             onClick={() => window.open(project.link, "_blank")}
         >
             <div className="flex flex-col bg-blue-portfolio lg:w-72 w-full py-1 rounded-3xl">

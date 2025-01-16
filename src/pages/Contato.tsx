@@ -55,7 +55,7 @@ export const Contato = () => {
                 </div>
                 <div className="py-4">
                   <p>{t("contact.phone")}</p>
-                  <p>(13)981653577</p>
+                  <p>+55 (13)981653577</p>
                 </div>
                 <h3 className="uppercase py-4 pt-8">{t("contact.follow")}</h3>
                 <div className="flex flex-row">
