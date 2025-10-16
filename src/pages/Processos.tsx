@@ -70,7 +70,7 @@ export const Processos = () => {
                   </div>
                   <div className="lg:w-40 lg:h-40 w-24 h-24 rounded-full flex items-center lg:my-4 my-2 justify-center bg-black-portfolio">
                     <div className="lg:w-36 lg:h-36 w-20 h-20 rounded-full items-center justify-center flex bg-black-portfolio">
-                      <div className="flex flex-col items-center justify-center ">
+                      <div className="flex flex-col text-center items-center justify-center ">
                         <Buildings className="m-1" width={32} height={32} />
                         <p>{icons.company}</p>
                       </div>

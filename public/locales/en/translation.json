@@ -25,23 +25,234 @@
 
   "developer": {
     "title": "The Developer",
-    "bio": "I’m 22 years old, passionate about Java and typed languages, but I believe that \"the best language is the one that solves the problem.\" I started my journey in mobile development, a field I still hold dear. Currently, I work as a full-stack developer, always striving to expand my knowledge and experiment with new technologies.",
+    "bio": "I’m 23 years old, passionate about Java and typed languages, but I believe that \"the best language is the one that solves the problem.\" I started my journey in mobile development, a field I still hold dear. Currently, I work as a full-stack developer, always striving to expand my knowledge and experiment with new technologies.",
     "details": "I am constantly improving my skills and exploring concepts like microservices, atomic design, and SOLID principles. I enjoy integrating best practices and modern solutions into the projects I develop, ensuring efficiency and scalability while challenging myself to learn and innovate.",
     "downloadCV": "Download CV"
 
 },
 
+  "certifications": {
+    "title": "Certifications & Achievements",
+    "items": {
+      "aws_developer": {
+        "title": "AWS Certified Developer - Associate",
+        "issuer": "Amazon Web Services",
+        "date": "Sep 2025 - Sep 2028"
+      },
+      "spring_boot": {
+        "title": "Getting Started with Spring Boot",
+        "issuer": "Stefanini Brasil",
+        "date": "Jan 2024"
+      },
+      "java_microservices": {
+        "title": "Building Scalable Java Microservices",
+        "issuer": "Google",
+        "date": "Sep 2023"
+      },
+      "azure_data": {
+        "title": "Azure Data Fundamentals",
+        "issuer": "Microsoft",
+        "date": "Sep 2023"
+      },
+      "google_data_cloud": {
+        "title": "Share Data Using Google Data Cloud",
+        "issuer": "Google",
+        "date": "Sep 2023"
+      },
+      "aws_cloud_foundations": {
+        "title": "AWS Academy Cloud Foundations",
+        "issuer": "Amazon Web Services",
+        "date": "Aug 2023"
+      },
+      "aws_cloud_practitioner": {
+        "title": "AWS Certified Cloud Practitioner",
+        "issuer": "Amazon Web Services",
+        "date": "Aug 2023 - Aug 2026"
+      },
+      "vertex_ai": {
+        "title": "Build ML Solutions on Vertex AI",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "dialogflow_cx": {
+        "title": "Create AI Agents with Dialogflow CX",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "bigquery_ml": {
+        "title": "Create ML Models with BigQuery ML",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "alloydb": {
+        "title": "Create and Manage AlloyDB Databases",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "looker": {
+        "title": "Exploring Data with Looker",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "flutter_development": {
+        "title": "Flutter Development",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "flutter_essentials": {
+        "title": "Flutter Essentials",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "google_ml_data": {
+        "title": "Google Cloud Solutions II: Data and ML",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "microsoft_ai900": {
+        "title": "Microsoft AI-900",
+        "issuer": "SENAI Santos",
+        "date": "Aug 2023"
+      },
+      "google_cloud_foundations": {
+        "title": "Google Cloud Foundations",
+        "issuer": "SENAI Santos",
+        "date": "Aug 2023"
+      },
+      "ml_apis": {
+        "title": "Integrate with Machine Learning APIs",
+        "issuer": "Google",
+        "date": "Aug 2023"
+      },
+      "angular": {
+        "title": "Angular 9 - Essencial",
+        "issuer": "Cod3r",
+        "date": "Jan 2023"
+      },
+      "gcp_infrastructure": {
+        "title": "Baseline: Infrastructure",
+        "issuer": "Google Cloud Skills Boost",
+        "date": "Dec 2022"
+      },
+      "gcp_networks": {
+        "title": "Build and Secure Networks in GCP",
+        "issuer": "Google Cloud Skills Boost",
+        "date": "Dec 2022"
+      },
+      "gcp_access": {
+        "title": "Ensure Access & Identity",
+        "issuer": "Google Cloud Skills Boost",
+        "date": "Dec 2022"
+      },
+      "google_dev_essentials": {
+        "title": "Google Developer Essentials",
+        "issuer": "Google Cloud Skills Boost",
+        "date": "Dec 2022"
+      },
+      "bigquery_insights": {
+        "title": "Insights from Data with BigQuery",
+        "issuer": "Google Cloud Skills Boost",
+        "date": "Dec 2022"
+      },
+      "gcp_ml_ai": {
+        "title": "Foundational Data, ML, and AI Tasks",
+        "issuer": "Google Cloud Skills Boost",
+        "date": "Dec 2022"
+      },
+      "gcp_infrastructure_tasks": {
+        "title": "Foundational Infrastructure Tasks",
+        "issuer": "Google Cloud Skills Boost",
+        "date": "Dec 2022"
+      },
+      "gcp_cloud_resources": {
+        "title": "Create and Manage Cloud Resources",
+        "issuer": "Google Cloud Skills Boost",
+        "date": "Nov 2022"
+      },
+      "azure_ai": {
+        "title": "Azure AI Fundamentals",
+        "issuer": "Microsoft",
+        "date": "Nov 2022"
+      },
+      "soft_skills": {
+        "title": "Soft Skills Development",
+        "issuer": "SENAI Santos",
+        "date": "Oct 2022"
+      },
+      "it_support": {
+        "title": "IT Technical Support Operator",
+        "issuer": "SENAI Santos",
+        "date": "Oct 2022"
+      },
+      "cisco_networking": {
+        "title": "Cisco Networking Academy Get Connected",
+        "issuer": "Cisco Networking Academy",
+        "date": "Dec 2021"
+      },
+      "python_pcap": {
+        "title": "PCAP: Programming Essentials in Python",
+        "issuer": "OpenEDG Python Institute",
+        "date": "Nov 2021"
+      },
+      "financas": {
+        "title": "Personal Finance",
+        "issuer": "SENAI Santos",
+        "date": "Oct 2021"
+      },
+      "economia_circular": {
+        "title": "Circular Economy",
+        "issuer": "SENAI Santos",
+        "date": "Oct 2021"
+      },
+      "lgpd": {
+        "title": "Privacy and Data Protection (LGPD)",
+        "issuer": "SENAI Santos",
+        "date": "Oct 2021"
+      },
+      "nr10": {
+        "title": "Electrical Safety - NR10",
+        "issuer": "SENAI Santos",
+        "date": "Jun 2021"
+      }
+    }
+  },
+
   "experiences": {
     "title": "Some Experiences",
+    "novacomp": {
+      "company": "Novacomp",
+      "role": "Software Engineer II",
+      "location": "Costa Rica",
+      "period": "Mar 2025 - Present",
+      "description": "Analyzed code and MongoDB to identify and prevent production issues. Used Datadog to monitor and troubleshoot system errors. Created TypeScript scripts to resolve production incidents."
+    },
     "stefanini": {
-      "company": "Stefanini/Petrobras",
-      "period": "01/2024 - Present",
-      "description": "Developed and maintained backend services using Python and Django. Integrated and utilized LLM APIs to optimize data analysis."
+      "company": "Stefanini IT Solutions",
+      "role": "Software Developer",
+      "location": "São Paulo",
+      "period": "Jan 2024 - Mar 2025",
+      "description": "Full-Stack Development: Worked with TypeScript (Vue) and Django to design, build, and maintain a scalable platform with strong performance and maintainability. Automated Script Creation: Developed and optimized daily automation scripts for virtual machines, enhancing operational efficiency. Bug Resolution and Sprint Management: Debugged critical issues and contributed to agile sprint planning to support timely, high-quality releases."
     },
     "fxbank": {
       "company": "FX Bank",
-      "period": "01/2023 - 07/2023",
-      "description": "Developed a business dashboard to optimize client relationships and transaction tracking. Designed proprietary APIs for automated financial transactions and payment splitting."
+      "role": "Software Developer",
+      "location": "São Paulo",
+      "period": "Jan 2022 - Sep 2022, Jan 2023 - Aug 2023",
+      "description": "Built a React-based business dashboard to optimize client relations and transaction monitoring. Designed and implemented proprietary APIs using Node.js to automate financial transactions and payment splits. Delivered custom software tools to streamline internal processes and boost operational efficiency."
+    },
+    "petrobras": {
+      "company": "Petrobras",
+      "role": "Mobile Developer Apprentice",
+      "location": "São Paulo",
+      "period": "Apr 2021 - Oct 2022",
+      "description": "Developed a mobile application called ASET to streamline customer support for IT issues. Java for application, built the backend using Node.js with a MySQL database. Utilized Firebase for authentication and real-time features."
+    },
+    "realparceria": {
+      "company": "Real Parceria",
+      "role": "Information Systems Developer",
+      "location": "São Paulo",
+      "period": "Oct 2022 - Dec 2022",
+      "description": "E-commerce Platform Development. Mobile Application Development (Android and iOS). Sales and Customer Relationship Management (CRM) Solutions."
     },
 
   "letsTalk": {
@@ -112,7 +323,16 @@
     "3": {
       "title": "FX BANK",
       "description": "Customized Checkout Page with Dashboard for sales analysis, integration with Shopify, PagSeguro, Safe2Pay, and more."
-    }
+    },
+     "4": {
+    "title": "SAEM",
+    "description": "System for maintenance control of equipment and facilities, creation of maintenance strategies and plans for offshore oil extraction platforms."
+  },
+  "5": {
+    "title": "LARA IA",
+    "description": "Chatbot built with LLM, LangChain and RAG for my graduation project, capable of extracting information from XLSX and PDF files to answer questions such as exam dates and class locations based on the logged student."
+  }
+
   },
 
 

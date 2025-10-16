@@ -6,12 +6,12 @@ import { useTranslation } from "react-i18next"; // Importa o hook para traduçã
 
 export const Projetos = () => {
   const { t } = useTranslation(); // Hook para acessar as traduções
-  const count = [1, 2, 3];
+  const count = [1, 2, 3, 4, 5];
 
   const [selectCount, setSelectCount] = useState(count[0]);
 
   const handleNextCard = () => {
-    if (selectCount === 3) {
+    if (selectCount === 5) {
       setSelectCount(1);
     } else {
       setSelectCount(selectCount + 1);
@@ -20,7 +20,7 @@ export const Projetos = () => {
 
   const handlePreviousCard = () => {
     if (selectCount === 1) {
-      setSelectCount(3);
+      setSelectCount(5);
     } else {
       setSelectCount(selectCount - 1);
     }

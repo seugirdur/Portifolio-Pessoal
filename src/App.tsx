@@ -5,6 +5,7 @@ import { Servicos } from "./pages/Servicos";
 import { Events, scrollSpy } from "react-scroll";
 import { Processos } from "./pages/Processos";
 import { Experiencias } from "./pages/Experiencias";
+import { Certificacoes } from "./pages/Certificacoes";
 import { Desenvolvedor } from "./pages/Desenvolvedor";
 import { Contato } from "./pages/Contato";
 
@@ -40,6 +41,9 @@ export const App = () => {
             </section>
             <section id="experiencias">
                 <Experiencias />
+            </section>
+            <section id="certificacoes">
+                <Certificacoes />
             </section>
             <section id="contato">
                 <Contato />

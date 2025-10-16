@@ -40,7 +40,7 @@ export const Desenvolvedor = () => {
                                 {/* Botão para download do CV */}
                                 <div className="px-12 lg:pt-24 pt-8">
                                     <a
-                                        href="https://drive.google.com/file/d/1P5H8ZdNeFadswFr8285TUhTGxZTIfAq_/view?usp=sharing"
+                                        href="https://drive.google.com/file/d/1gwe_Vkelqs3ArZAtBlBsS44y7BnBmOZY/view?usp=sharing"
                                         target="_blank"
                                     >
                                         <button className="lg:text-3xl text-xl uppercase text-lightblue-portfolio font-bold px-8 py-2 ring-1 items-center flex-row ring-white rounded-s-full rounded-e-full w-fit flex tracking-widest">
