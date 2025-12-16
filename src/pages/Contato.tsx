@@ -49,13 +49,13 @@ export const Contato = () => {
                 <h3 className="uppercase font-bold pb-2">{t("contact.contacts")}</h3>
                 <div className="py-4">
                   <p>{t("contact.email")}</p>
-                  <a href="mailto:gabriel.lima137170@gmail.com">
-                    <p>gabriel.lima137170@gmail.com</p>
+                  <a href="mailto:gabrielrl.dev@gmail.com">
+                    <p>gabrielrl.dev@gmail.com</p>
                   </a>
                 </div>
                 <div className="py-4">
                   <p>{t("contact.phone")}</p>
-                  <p>+55 (13)981653577</p>
+                  <p>+55 (13)991365396</p>
                 </div>
                 <h3 className="uppercase py-4 pt-8">{t("contact.follow")}</h3>
                 <div className="flex flex-row">
